@@ -41,7 +41,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   # code here
   holiday_hash = {
     :fall => {
-      :colombus_day => ["Turkey", "Stuffing"]
+      :columbus_day => ["Turkey", "Stuffing"]
     }
   }
   # remember to return the updated hash
