@@ -39,7 +39,11 @@ end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
-  holiday_hash[season][holiday_name][supply_array]
+  holiday_hash = {
+      :fall => [
+        :known_for => "Ruby",
+        :languages => ["LISP", "C"]
+        }
   # remember to return the updated hash
   holiday_hash
 end
