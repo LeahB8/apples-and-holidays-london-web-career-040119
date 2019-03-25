@@ -39,9 +39,7 @@ end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
-    programmer_hash = {
-      :fall => {:colombus_day}
-    }
+  holiday_hash[:fall] << :colombus_day
   # remember to return the updated hash
   holiday_hash
 end
